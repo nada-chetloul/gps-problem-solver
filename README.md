@@ -1,9 +1,9 @@
 # gps-problem-solver
-Ce projet implémente un Générateur de Plans (GPS) en C permettant de résoudre automatiquement des problèmes à partir de faits, d’objectifs et de règles. Il utilise le chaînage avant simple et avec retour arrière pour générer une séquence d’actions, et illustre les bases de la résolution de problèmes en intelligence artificielle.
+This project implements a Plan Generator (GPS) in C that automatically solves problems from facts, goals, and rules. It uses simple forward chaining and forward chaining with backtracking to generate a sequence of actions, and illustrates the basics of problem solving in artificial intelligence.
 
-## Aperçu
+## Overview
 
-![Résultat du programme](screenshot/Capture%20d'écran%202026-01-21%20212252.png)
+![Program output](screenshot/Capture%20d'écran%202026-01-21%20212252.png)
 
-Le programme affiche le résultat de la résolution du problème en appliquant les règles disponibles.  
-On y observe l’exécution du chaînage avant simple, puis du chaînage avant avec retour arrière, ainsi que la séquence d’actions générée pour atteindre l’objectif final.
+The program displays the result of solving the problem by applying the available rules.  
+It shows the execution of simple forward chaining, then forward chaining with backtracking, as well as the sequence of actions generated to reach the final goal.
